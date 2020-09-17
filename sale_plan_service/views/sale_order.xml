@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sale_order_plan_service_view_form" model="ir.ui.view">
+        <field name="name">sale.order.plan.service.view.form</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='payment_term_id']" position="after">
+                <field name="numberContract" attrs="{'invisible': ['|', '&amp;', ('is_plan', '=', False), ('is_activation', '=', False)]}"/>
+                <field name="protections" attrs="{'invisible': [('is_activation', '=', False)]}"/>
+                <field name="is_prepaid"/>
+                <field name="is_plan"/>
+                <field name="is_activation"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="sale_order_line_serial_number" model="ir.ui.view">
+            <field name="name">sale.order.line.serial.number</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="model">sale.order</field>
+            <field name="arch" type="xml">
+                <xpath expr="//page/field[@name='order_line']/tree/field[@name='name']" position="after">
+                    <!-- below fields are used in the widget qty_at_date_widget -->
+                    <field name="serialNumber"/>
+                </xpath>
+            </field>
+    </record>
+</odoo>
