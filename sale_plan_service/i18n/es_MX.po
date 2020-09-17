@@ -1,0 +1,73 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_plan_service
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-17 16:24+0000\n"
+"PO-Revision-Date: 2020-09-17 11:26-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_MX\n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: sale_plan_service
+#: model:ir.model.fields,field_description:sale_plan_service.field_sale_order__is_activation
+msgid "Activation"
+msgstr "Activación"
+
+#. module: sale_plan_service
+#: model:ir.model.fields,field_description:sale_plan_service.field_sale_order__numberContract
+msgid "Contract number"
+msgstr "Número de contrato"
+
+#. module: sale_plan_service
+#: model:ir.model.fields,field_description:sale_plan_service.field_sale_order__is_plan
+msgid "Plan"
+msgstr "Plan"
+
+#. module: sale_plan_service
+#: model:ir.model.fields,field_description:sale_plan_service.field_sale_order__is_prepaid
+msgid "Prepaid"
+msgstr "Prepago"
+
+#. module: sale_plan_service
+#: model:ir.model.fields,field_description:sale_plan_service.field_sale_order__protections
+msgid "Protection"
+msgstr "Protección"
+
+#. module: sale_plan_service
+#: model:ir.model.fields.selection,name:sale_plan_service.selection__sale_order__protections__105
+msgid "Protection 105"
+msgstr "Protección 105"
+
+#. module: sale_plan_service
+#: model:ir.model.fields.selection,name:sale_plan_service.selection__sale_order__protections__155
+msgid "Protection 155"
+msgstr "Protección 155"
+
+#. module: sale_plan_service
+#: model:ir.model.fields.selection,name:sale_plan_service.selection__sale_order__protections__55
+msgid "Protection 55"
+msgstr "Protección 55"
+
+#. module: sale_plan_service
+#: model:ir.model,name:sale_plan_service.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
+#. module: sale_plan_service
+#: model:ir.model,name:sale_plan_service.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Línea de pedido de venta"
+
+#. module: sale_plan_service
+#: model:ir.model.fields,field_description:sale_plan_service.field_sale_order_line__serialNumber
+msgid "Serial Number"
+msgstr "Número de serie"
