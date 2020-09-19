@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="product_category_plan" model="product.category">
+            <field name="parent_id" ref="product.product_category_all"/>
+            <field name="name">Plan</field>
+        </record>
+        <record id="product_category_prepago" model="product.category">
+            <field name="parent_id" ref="product.product_category_all"/>
+            <field name="name">Prepago</field>
+        </record>
+    </data>
+</odoo>

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-17 16:24+0000\n"
-"PO-Revision-Date: 2020-09-17 11:26-0500\n"
+"POT-Creation-Date: 2020-09-19 01:36+0000\n"
+"PO-Revision-Date: 2020-09-18 20:36-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,49 +18,204 @@ msgstr ""
 "X-Generator: Poedit 2.3\n"
 
 #. module: sale_plan_service
-#: model:ir.model.fields,field_description:sale_plan_service.field_sale_order__is_activation
-msgid "Activation"
-msgstr "Activación"
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "&amp;nbsp;<span>on</span>&amp;nbsp;"
+msgstr ""
 
 #. module: sale_plan_service
-#: model:ir.model.fields,field_description:sale_plan_service.field_sale_order__numberContract
-msgid "Contract number"
-msgstr "Número de contrato"
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "<span>Disc.%</span>"
+msgstr ""
 
 #. module: sale_plan_service
-#: model:ir.model.fields,field_description:sale_plan_service.field_sale_order__is_plan
-msgid "Plan"
-msgstr "Plan"
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "<span>Pro-Forma Invoice # </span>"
+msgstr ""
 
 #. module: sale_plan_service
-#: model:ir.model.fields,field_description:sale_plan_service.field_sale_order__is_prepaid
-msgid "Prepaid"
-msgstr "Prepago"
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr ""
 
 #. module: sale_plan_service
-#: model:ir.model.fields,field_description:sale_plan_service.field_sale_order__protections
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "<strong>Expiration:</strong>"
+msgstr ""
+
+#. module: sale_plan_service
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "<strong>Fecha de cotización:</strong>"
+msgstr ""
+
+#. module: sale_plan_service
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "<strong>Fiscal Position Remark:</strong>"
+msgstr ""
+
+#. module: sale_plan_service
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "<strong>Order Date:</strong>"
+msgstr ""
+
+#. module: sale_plan_service
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "<strong>Signature</strong>"
+msgstr ""
+
+#. module: sale_plan_service
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "<strong>Subtotal</strong>"
+msgstr ""
+
+#. module: sale_plan_service
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "<strong>Total</strong>"
+msgstr ""
+
+#. module: sale_plan_service
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "<strong>Vendedor:</strong>"
+msgstr ""
+
+#. module: sale_plan_service
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "<strong>Your Reference:</strong>"
+msgstr ""
+
+#. module: sale_plan_service
+#: model:ir.model.fields,field_description:sale_plan_service.field_sale_order_line__activate
+msgid "Activate"
+msgstr "Activo"
+
+#. module: sale_plan_service
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "Cantidad"
+msgstr ""
+
+#. module: sale_plan_service
+#: model:ir.model.fields,field_description:sale_plan_service.field_sale_order_line__numberContract
+msgid "Contract"
+msgstr "Contrato"
+
+#. module: sale_plan_service
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "Contrato"
+msgstr ""
+
+#. module: sale_plan_service
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "Cotización #"
+msgstr ""
+
+#. module: sale_plan_service
+#: model:ir.model.fields,field_description:sale_plan_service.field_serial_number__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: sale_plan_service
+#: model:ir.model.fields,field_description:sale_plan_service.field_serial_number__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: sale_plan_service
+#: model:ir.model.fields,field_description:sale_plan_service.field_serial_number__description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: sale_plan_service
+#: model:ir.model.fields,field_description:sale_plan_service.field_serial_number__display_name
+msgid "Display Name"
+msgstr "Nombre"
+
+#. module: sale_plan_service
+#: model:ir.model.fields,field_description:sale_plan_service.field_serial_number__id
+msgid "ID"
+msgstr ""
+
+#. module: sale_plan_service
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "Impuesto"
+msgstr ""
+
+#. module: sale_plan_service
+#: model:ir.model.fields,field_description:sale_plan_service.field_serial_number____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: sale_plan_service
+#: model:ir.model.fields,field_description:sale_plan_service.field_serial_number__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: sale_plan_service
+#: model:ir.model.fields,field_description:sale_plan_service.field_serial_number__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: sale_plan_service
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "Monto"
+msgstr ""
+
+#. module: sale_plan_service
+#: model:ir.model.fields,field_description:sale_plan_service.field_serial_number__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: sale_plan_service
+#: model:ir.model.fields,field_description:sale_plan_service.field_sale_order_line__serialNumber_id
+msgid "No. Serial"
+msgstr "No. serie"
+
+#. module: sale_plan_service
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "No. Serie"
+msgstr ""
+
+#. module: sale_plan_service
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "Pedido #"
+msgstr ""
+
+#. module: sale_plan_service
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "Precio Unitario"
+msgstr ""
+
+#. module: sale_plan_service
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "Precio total"
+msgstr ""
+
+#. module: sale_plan_service
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "Producto"
+msgstr ""
+
+#. module: sale_plan_service
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "Proteccion"
+msgstr "Protección"
+
+#. module: sale_plan_service
+#: model:ir.model.fields,field_description:sale_plan_service.field_sale_order_line__protections
 msgid "Protection"
 msgstr "Protección"
 
 #. module: sale_plan_service
-#: model:ir.model.fields.selection,name:sale_plan_service.selection__sale_order__protections__105
+#: model:ir.model.fields.selection,name:sale_plan_service.selection__sale_order_line__protections__105
 msgid "Protection 105"
 msgstr "Protección 105"
 
 #. module: sale_plan_service
-#: model:ir.model.fields.selection,name:sale_plan_service.selection__sale_order__protections__155
+#: model:ir.model.fields.selection,name:sale_plan_service.selection__sale_order_line__protections__155
 msgid "Protection 155"
 msgstr "Protección 155"
 
 #. module: sale_plan_service
-#: model:ir.model.fields.selection,name:sale_plan_service.selection__sale_order__protections__55
+#: model:ir.model.fields.selection,name:sale_plan_service.selection__sale_order_line__protections__55
 msgid "Protection 55"
 msgstr "Protección 55"
-
-#. module: sale_plan_service
-#: model:ir.model,name:sale_plan_service.model_sale_order
-msgid "Sales Order"
-msgstr "Pedido de venta"
 
 #. module: sale_plan_service
 #: model:ir.model,name:sale_plan_service.model_sale_order_line
@@ -68,6 +223,16 @@ msgid "Sales Order Line"
 msgstr "Línea de pedido de venta"
 
 #. module: sale_plan_service
-#: model:ir.model.fields,field_description:sale_plan_service.field_sale_order_line__serialNumber
-msgid "Serial Number"
-msgstr "Número de serie"
+#: model_terms:ir.ui.view,arch_db:sale_plan_service.report_saleorder_document_plan_inherit_sale
+msgid "Tipo"
+msgstr ""
+
+#. module: sale_plan_service
+#: model:ir.model.fields,field_description:sale_plan_service.field_sale_order_line__categ_id
+msgid "Type"
+msgstr "Tipo"
+
+#. module: sale_plan_service
+#: model:ir.model,name:sale_plan_service.model_serial_number
+msgid "serial.number"
+msgstr "no. Serie"

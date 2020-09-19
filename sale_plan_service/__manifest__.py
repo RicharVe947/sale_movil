@@ -1,4 +1,5 @@
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-Crear:Líneas del pedido    serialNumber_id = fields.One2many(related="serial.number",string="Serial number")
+
 {
     'name': "Sale plan service",
     'summary': """
@@ -14,6 +15,9 @@
     'version': '0.1',
     'depends': ['sale'],
     'data': [
+        "data/product_category.xml",
+        "security/ir.model.access.csv",
         "views/sale_order.xml",
+        "report/sale_order_report.xml"
     ],
 }
